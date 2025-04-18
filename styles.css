@@ -1,17 +1,17 @@
 .container
 {
-    border:1px solid grey;
     display:flex;
     background-color:black;
     color:white;
-    opacity: 0.50;
-    width:250px;
+    opacity: 0.80;
+    width:450;
     padding:8px 40px 40px 40px;
-    margin:0px;
+    margin-left:12px;
     justify-content: center;
     align-items:center;
-    border-radius:10px;
+    margin-bottom:40px;
 }
+
 .signup-div
 {
     width:100%;
@@ -30,12 +30,12 @@ input
  padding:0px;
  margin-bottom:10px;
  display:flex;
- color:white;
+ color:#ffff;
  border-radius:5px;   
- width:100%;
- height:30px;
+ width:322px;
+ height:56px;
  background-color:black;
- border:1px solid white;
+ font-size: 15px;
 }
 .OR-div
 {
@@ -54,6 +54,7 @@ button
 }
 .btn-sign
 {
+    font-size:17.5px;
     border-radius:5px;
     padding:0;
     display:flex;
@@ -62,27 +63,28 @@ button
     width:100%;
     background-color:red;
     color:white;
-    height:35px;
+    height:40px;
+    font-weight: 500;
 }
 .btn-use
 {
+    font-size:17.5px;
     border-radius:5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:35px;
+    height:40px;
     width:100%;
     background-color:grey;
     color:white;
+    font-weight: 500;
 }
 body
 {
-    background-color: black;
+    background-size: cover;
+    background-image: url("./IN-en-20250414-TRIFECTA-perspective_c8273fb1-8860-4ff5-bd1c-c2c4b44d5f2a_small.jpg");
     width:100%;
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items:center;
     height:100vh;
     margin:0;
     padding:0;
@@ -128,6 +130,52 @@ small
     justify-content: left;  
     color:red; 
     padding-right: 15px;
+    padding-left:30px;
+    font-size: 40px;
+}
+.container-div
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer
+{
+    background-color: black;
+    color:white;
+}
+.footer-div
+{
+    display:flex;
+    align-items: left;
+    justify-content: left;
+    padding:0px 40px 0px 40px;
 }
 
 
+li a
+{
+    color:white;
+}
+ul 
+{
+  width:inherit;
+  list-style-type: none;
+  display:flex;
+  justify-content: space-evenly;  
+  padding-left:40px;
+}
+.div-select
+{
+   display:flex;
+   justify-content: left;
+   align-items: left;
+   padding-left:40px;
+   background-color: black;
+}
+select
+{
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+}
